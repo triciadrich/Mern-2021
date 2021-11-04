@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 const PersonCard = (props) => {
   const { firstName, lastName, hairColor } = props;
-  let [age, setAge] = useState(props.age);
+  const [age, setAge] = useState(props.age);
   return (
     <div>
       <p>{firstName}</p>
