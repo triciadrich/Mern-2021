@@ -6,7 +6,7 @@ const Poke =(props) =>{
 
   useEffect(() => {
     axios.get('https://pokeapi.co/api/v2/pokemon')
-        .then(response => {setPokemon(response.data)})
+        .then(response => {setPokemon(response.data.results)})
   },[]
   );
 
