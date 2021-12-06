@@ -1,9 +1,7 @@
 const mongoose = require("mongoose");
 
 const JokesSchema = new mongoose.Schema({
-  joke: {
-    type: String,
-  },
+  name: String,
 });
 
 const Joke = mongoose.model("Joke", JokesSchema);
