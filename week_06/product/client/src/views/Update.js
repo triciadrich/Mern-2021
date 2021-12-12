@@ -11,7 +11,7 @@ const Update = (props) => {
     axios.get("http://localhost:8000/api/products/" + id)
       .then((res) => {
         setTitle(res.data.title);
-        setPrice(res.data.price);
+         setPrice(res.data.price);
         setDescription(res.data.description);
         
       })
