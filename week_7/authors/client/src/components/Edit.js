@@ -15,7 +15,7 @@ const Edit = (props) =>{
         setLastName(res.data.lastName);
       
         
-      })
+        })
       .catch((err) => console.log(err));
   }, [id]);
   const updateAuthor = (e) => {

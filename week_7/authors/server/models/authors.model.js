@@ -18,4 +18,4 @@ const AuthorSchema = new mongoose.Schema({
   }
 })
 
-module.exports = mongoose.model('Author', AuthorSchema);
+module.exports = mongoose.model('Author', AuthorSchema);  
